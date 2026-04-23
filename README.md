@@ -25,7 +25,7 @@ Smart-Object-Detection-Tracking/
 ├── dnn_model/
 │   ├── yolov4.weights
 │   ├── yolov4.cfg
-│   ├── classes.txt
+│   ├── coco.names
 │
 ├── object_detection.py
 ├── tracking.py
