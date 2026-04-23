@@ -14,24 +14,21 @@ It detects multiple objects in a video and assigns **unique IDs** to each object
 
 ---
 
-## 📂 Project Structure
-
-The project follows a clean and modular architecture for better readability, maintainability, and scalability.
 AI-Tracking-System/
 │
-├── assets/ 
-│ ├── detect 1.png
-│ ├── detect 2.png
+├── 📁 assets/
+│   ├── 🖼️ detect 1.png
+│   └── 🖼️ detect 2.png
 │
-├── dnn_model/
-│ ├── yolov4.weights
-│ ├── yolov4.cfg
-│ ├── classes.txt
+├── 📁 dnn_model/
+│   ├── 🧠 yolov4.weights      # Pre-trained YOLOv4 weights
+│   ├── ⚙️ yolov4.cfg          # YOLOv4 configuration file
+│   └── 📋 classes.txt         # Object classes labels
 │
-├── object_detection.py
-├── tracking.py
-├── requirements.txt 
-└── README.md 
+├── 🐍 object_detection.py     # Main detection script
+├── 🐍 tracking.py             # Object tracking module
+├── 📦 requirements.txt        # Python dependencies
+└── 📖 README.md               # Project documentation
 ---
 
 ## 🧠 How It Works
