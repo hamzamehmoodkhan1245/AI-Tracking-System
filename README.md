@@ -16,22 +16,22 @@ It detects multiple objects in a video and assigns **unique IDs** to each object
 
 ## 📂 Project Structure
 
-Smart-Object-Detection-Tracking/
+The project follows a clean and modular architecture for better readability, maintainability, and scalability.
+AI-Tracking-System/
 │
-├── assets/
-│   ├── detect 1.png
-│   ├── detect 2.png
+├── assets/ 
+│ ├── detect 1.png
+│ ├── detect 2.png
 │
 ├── dnn_model/
-│   ├── yolov4.weights
-│   ├── yolov4.cfg
-│   ├── coco.names
+│ ├── yolov4.weights
+│ ├── yolov4.cfg
+│ ├── classes.txt
 │
 ├── object_detection.py
 ├── tracking.py
-├── requirements.txt
-└── README.md
-
+├── requirements.txt 
+└── README.md 
 ---
 
 ## 🧠 How It Works
